@@ -15,3 +15,8 @@ func Reverse(s string) string {
 func ToUpperCase(s string) string {
 	return strings.ToUpper(s)
 }
+
+// Изменить текст в нижний регистр
+func ToLowerCase(s string) string {
+	return strings.ToLower(s)
+}
